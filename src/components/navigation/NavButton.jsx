@@ -32,7 +32,6 @@ const getIcon = (icon) => {
       return <Twitter className="w-full h-auto" strokeWidth={1.5} />;
     case "resume":
       return <NotebookText className="w-full h-auto" strokeWidth={1.5} />;
-
     default:
       return <Home className="w-full h-auto" strokeWidth={1.5} />;
   }
