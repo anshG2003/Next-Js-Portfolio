@@ -51,6 +51,8 @@ const AboutDetails = () => {
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=anshG2003&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="Ansh"
+            width={100}
+            height={200}
             loading="lazy"
           />
         </ItemLayout>
